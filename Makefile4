@@ -5,7 +5,7 @@ endef
 all: say_hello_world say_hello_John
 
 say_hello_world:
-	$(call say_hello, "world")
+	$(call say_hello)
 
 say_hello_John:
 	$(call say_hello, "John")
